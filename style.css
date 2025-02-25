@@ -49,30 +49,41 @@ html {
     box-shadow: 3px 5px black;
 }
 
-.education-container {
+.left-body-container {
     display: flex;
     flex-direction: column;    
     padding: 30px 200px;
 }
 
-.education-container h4 {
+.left-body-container h4 {
     font-size: 72px;
+    margin-bottom: 1rem;
 }
 
-/* .education-list {
+.body-list {
     list-style: none;
-} */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
 
-.skill-container {
+.body-list li {
+    background-color: white;
+    border: solid black 1px;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.right-body-container {
     display: flex;
     flex-direction: column;
-    align-items: end;
     padding: 30px 200px;
     background: radial-gradient(circle, rgba(220,222,237,1) 0%, rgba(189,250,182,1) 100%);
 }
 
-.skill-container h4 {
+.right-body-container h4 {
     font-size: 72px;
+    margin-bottom: 1rem;
 }
 
 /* .skill-list {
